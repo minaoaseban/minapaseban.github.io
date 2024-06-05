@@ -1,460 +1,323 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-   
-   
-    <head>
-       
-       
-        <!-- META -->
-        <meta charset="utf-8">
-        <meta name="robots" content="noodp">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-       
-        <!-- PAGE TITLE -->
-        <title>Miller - Identity</title>
-       
-        <!-- FAVICON -->
-        <link rel="shortcut icon" href="assets/img/favicon.png">
-       
-        <!-- FONTS -->
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CArapey&amp;subset=latin-ext" rel="stylesheet">
-       
-        <!-- STYLESHEETS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-        
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website Design Tutorial</title>
 
-   
-    <body>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
     
-       
-        <!-- PRELOADER -->
-        <div class="preloader">
-           
-            <div class="spinner"></div>
-            
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">خانه</a>
+        <a href="#about">درباره من</a>
+        <a href="#services">خدمات من</a>
+        <a href="#portfolio">نمونه کار</a>
+        <a href="#blogs">وبلاگ</a>
+        <a href="#contact">تماس با من</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <img class="tilt" src="images/home-pic.png" alt="">
+        <h3> حسین  <span>امانی</span> </h3>
+        <p> i am a <span class="typing-text"> front end developer </span> </p>
+        <a href="#about" class="btn">درباره من</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> درباره <span>من</span> </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="images/about-pic.jpg" alt="">
         </div>
-        <!-- /PRELOADER -->
-    
-        
-        <!-- IMAGE CONTAINER -->
-        <div class="image-container">
-           
-            <div class="background-img"></div>
 
-        </div>
-        <!-- /IMAGE CONTAINER -->
-
-
-        <!-- CONTENT AREA -->
-        <div class="content-area">
-
-
-            <!-- CONTENT AREA INNER --> 
-            <div class="content-area-inner">
-
-
-                <!-- INTRO -->
-                <section id="intro">
-
-
-                    <!-- CONTAINER MID -->
-                    <div class="container-mid">
-
-                       
-                        <!-- ANIMATION CONTAINER -->
-                        <div class="animation-container animation-fade-down" data-animation-delay="0">
-                        
-                            <h1>I’m John Miller,</h1>
-                        
-                        </div>
-                        <!-- /ANIMATION CONTAINER -->
-                        
-                        
-                        <!-- ANIMATION CONTAINER -->
-                        <div class="animation-container animation-fade-left" data-animation-delay="300">
-                           
-                            <p class="subline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum lacinia molestie. Phasellus vehicula ornare odio, blandit commodo nisl dapibus vel. Sed vel fermentum elit.</p>
-                            
-                        </div>
-                        <!-- /ANIMATION CONTAINER -->
-                        
-                        
-                        <!-- ANIMATION CONTAINER -->
-                        <div class="animation-container animation-fade-up" data-animation-delay="600">
-                           
-                            <a href="#about" class="smooth-scroll">Learn More<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            
-                        </div>
-                        <!-- /ANIMATION CONTAINER -->
-
-
-                    </div>
-                    <!-- /CONTAINER MID -->
-
-
-                </section>
-                <!-- /INTRO -->
-
-
-                <!-- ABOUT -->
-                <section id="about">
-
-
-                    <h3 class="headline scroll-animated-from-right">Why I can help you.</h3>
-                    
-                    <p class="scroll-animated-from-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper faucibus eros, quis imperdiet sapien. Nam sodales nec risus nec interdum. Proin lobortis, ex condimentum ultricies eleifend, nisl nunc sollicitudin odio, eget egestas est turpis et metus. In non ligula quis mauris rutrum porta.</p>
-
-                    <p class="scroll-animated-from-right">Duis consectetur massa sit amet nibh rhoncus, at pharetra ligula aliquet. Ut ac velit vestibulum, eleifend diam ut, malesuada nisi. Sed vel felis vitae diam luctus commodo. Nunc ipsum est, vulputate id orci ac, luctus consectetur sapien.</p>
-
-
-                </section>
-                <!-- /ABOUT -->
-                
-                
-                <!-- SERVICE -->
-                <section id="service">
-
-
-                    <h3 class="headline scroll-animated-from-right">What I can do for you.</h3>
-                    
-                    
-                    <!-- SERVICE LIST -->
-                    <ul class="services-list">
-                       
-                       
-                        <li class="scroll-animated-from-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Concept & Strategy</li>
-                        <li class="scroll-animated-from-right"><i class="fa fa-eye" aria-hidden="true"></i>Design Direction</li>
-                        <li class="scroll-animated-from-right"><i class="fa fa-database" aria-hidden="true"></i>Product Design</li>
-                        <li class="scroll-animated-from-right"><i class="fa fa-television" aria-hidden="true"></i>Web Design</li>
-                        <li class="scroll-animated-from-right"><i class="fa fa-square-o" aria-hidden="true"></i>UI & UX Design</li>
-                        
-                        
-                    </ul>
-                    <!-- /SERVICE LIST -->
-
-
-                </section>
-                <!-- /SERVICE -->
-                
-                
-                <!-- WORK -->
-                <section id="work">
-
-
-                    <h3 class="headline scroll-animated-from-right">My latest Work.</h3>
-                    
-                    
-                    <!-- SHOWCASE -->
-                    <div class="showcase">
-                       
-                       
-                        <!-- ITEM -->
-                        <div class="item scroll-animated-from-right">
-                          
-                          
-                            <!-- LIGHTBOX LINK -->
-                            <a href="#" data-featherlight="#item-1-lightbox">
-                            
-                            
-                                <!-- INFO -->
-                                <div class="info">
-
-
-                                    <!-- CONTAINER MID -->
-                                    <div class="container-mid">
-
-                                        <h5>Fashion Inc.</h5>
-                                        <p>Web Design</p>
-
-                                    </div>
-                                    <!-- /CONTAINER MID -->
-
-
-                                </div>
-                                <!-- /INFO -->
-
-
-                                <div class="background-image" style="background-image: url(assets/img/work/item-1.jpg)"></div>
-
-                           
-                            </a>
-                            <!-- /LIGHTBOX LINK -->
-                            
-                            
-                            <!-- LIGHTBOX -->
-                            <div id="item-1-lightbox" class="work-lightbox">
-                               
-                               
-                                <img class="img-responsive" src="assets/img/work/item-1.jpg" alt="image">
-                                
-                                <h3>Fashion Inc.</h3>
-                                <p class="subline">Web Design</p>
-                                
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper faucibus eros, quis imperdiet sapien. Nam sodales nec risus nec interdum. Proin lobortis, ex condimentum ultricies eleifend, nisl nunc sollicitudin odio, eget egestas est turpis et metus. In non ligula quis mauris rutrum porta.</p>
-                                
-                                
-                            </div>
-                            <!-- /LIGHTBOX -->
-                            
-                            
-                        </div>
-                        <!-- /ITEM -->
-                        
-                        
-                        <!-- ITEM -->
-                        <div class="item scroll-animated-from-right">
-                          
-                          
-                            <!-- LIGHTBOX LINK -->
-                            <a href="#" data-featherlight="#item-2-lightbox">
-                            
-                            
-                                <!-- INFO -->
-                                <div class="info">
-
-
-                                    <!-- CONTAINER MID -->
-                                    <div class="container-mid">
-
-                                        <h5>Asimov 71</h5>
-                                        <p>Product Design</p>
-
-                                    </div>
-                                    <!-- /CONTAINER MID -->
-
-
-                                </div>
-                                <!-- /INFO -->
-
-
-                                <div class="background-image" style="background-image: url(assets/img/work/item-2.jpg)"></div>
-
-                           
-                            </a>
-                            <!-- /LIGHTBOX LINK -->
-                            
-                            
-                            <!-- LIGHTBOX -->
-                            <div id="item-2-lightbox" class="work-lightbox">
-                               
-                               
-                                <img class="img-responsive" src="assets/img/work/item-2.jpg" alt="image">
-                                
-                                <h3>Asimov 71</h3>
-                                <p class="subline">Product Design</p>
-                                
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper faucibus eros, quis imperdiet sapien. Nam sodales nec risus nec interdum. Proin lobortis, ex condimentum ultricies eleifend, nisl nunc sollicitudin odio, eget egestas est turpis et metus. In non ligula quis mauris rutrum porta.</p>
-                                
-                                
-                            </div>
-                            <!-- /LIGHTBOX -->
-                            
-                            
-                        </div>
-                        <!-- /ITEM -->
-                        
-                        
-                        <!-- ITEM -->
-                        <div class="item scroll-animated-from-right">
-                          
-                          
-                            <!-- LIGHTBOX LINK -->
-                            <a href="#" data-featherlight="#item-3-lightbox">
-                            
-                            
-                                <!-- INFO -->
-                                <div class="info">
-
-
-                                    <!-- CONTAINER MID -->
-                                    <div class="container-mid">
-
-                                        <h5>Hardley &amp; Sons</h5>
-                                        <p>Design Direction</p>
-
-                                    </div>
-                                    <!-- /CONTAINER MID -->
-
-
-                                </div>
-                                <!-- /INFO -->
-
-
-                                <div class="background-image" style="background-image: url(assets/img/work/item-3.jpg)"></div>
-
-                           
-                            </a>
-                            <!-- /LIGHTBOX LINK -->
-                            
-                            
-                            <!-- LIGHTBOX -->
-                            <div id="item-3-lightbox" class="work-lightbox">
-                               
-                               
-                                <img class="img-responsive" src="assets/img/work/item-3.jpg" alt="image">
-                                
-                                <h3>Hardley &amp; Sons</h3>
-                                <p class="subline">Design Direction</p>
-                                
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper faucibus eros, quis imperdiet sapien. Nam sodales nec risus nec interdum. Proin lobortis, ex condimentum ultricies eleifend, nisl nunc sollicitudin odio, eget egestas est turpis et metus. In non ligula quis mauris rutrum porta.</p>
-                                
-                                
-                            </div>
-                            <!-- /LIGHTBOX -->
-                            
-                            
-                        </div>
-                        <!-- /ITEM -->
-                        
-                        
-                        <!-- ITEM -->
-                        <div class="item scroll-animated-from-right">
-                          
-                          
-                            <!-- LIGHTBOX LINK -->
-                            <a href="#" data-featherlight="#item-4-lightbox">
-                            
-                            
-                                <!-- INFO -->
-                                <div class="info">
-
-
-                                    <!-- CONTAINER MID -->
-                                    <div class="container-mid">
-
-                                        <h5>Starnation</h5>
-                                        <p>UI/UX DESIGN</p>
-
-                                    </div>
-                                    <!-- /CONTAINER MID -->
-
-
-                                </div>
-                                <!-- /INFO -->
-
-
-                                <div class="background-image" style="background-image: url(assets/img/work/item-4.jpg)"></div>
-
-                           
-                            </a>
-                            <!-- /LIGHTBOX LINK -->
-                            
-                            
-                            <!-- LIGHTBOX -->
-                            <div id="item-4-lightbox" class="work-lightbox">
-                               
-                               
-                                <img class="img-responsive" src="assets/img/work/item-4.jpg" alt="image">
-                                
-                                <h3>Starnation</h3>
-                                <p class="subline">UI/UX DESIGN</p>
-                                
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper faucibus eros, quis imperdiet sapien. Nam sodales nec risus nec interdum. Proin lobortis, ex condimentum ultricies eleifend, nisl nunc sollicitudin odio, eget egestas est turpis et metus. In non ligula quis mauris rutrum porta.</p>
-                                
-                                
-                            </div>
-                            <!-- /LIGHTBOX -->
-                            
-                            
-                        </div>
-                        <!-- /ITEM -->
-                        
-                        
-                    </div>
-                    <!-- /SHOWCASE -->
-
-
-                </section>
-                <!-- /WORK -->
-                
-                
-                <!-- CONTACT -->
-                <section id="contact">
-
-
-                    <h3 class="headline scroll-animated-from-right">Contact Me.</h3>
-                    
-                    
-                    <!-- CONTACT LIST -->
-                    <ul class="contact-list">
-                       
-                        <li class="scroll-animated-from-right"><i class="fa fa-mobile" aria-hidden="true"></i>01572 115522</li>
-                        <li class="scroll-animated-from-right"><i class="fa fa-envelope-o" aria-hidden="true"></i>johnmiller@mail.com</li>
-                        
-                    </ul>
-                    <!-- /CONTACT LIST -->
-                    
-                    
-                    <!-- CONTACT FORM --> 
-                    <form id="contact-form" action="assets/php/contact.php" method="post">
-
-                       
-                        <input id="contact-form-name" type="text" name="name" class="form-control scroll-animated-from-right" placeholder="* Your Name">
-                        
-                        <input id="contact-form-email" type="text" name="email" class="form-control scroll-animated-from-right" placeholder="* Your Email">
-                        
-                        <!-- PHANTOM ELEMENT ( HONEYPOT CAPTCHA FOR SECURITY ) -->
-                        <div class="fhp-input"><input id="contact-form-company" type="text" name="company" class="form-control"></div>
-                        <!-- /PHANTOM ELEMENT ( HONEYPOT CAPTCHA FOR SECURITY ) -->
-                        
-                        <textarea id="contact-form-message" name="message" class="form-control scroll-animated-from-right" placeholder="* Your Message"></textarea>
-                        
-                        <button type="submit" class="form-control scroll-animated-from-right">Send Mail</button>
-                        
-                        <div class="success-message">* The Email was Sent Successfully!</div>
-
-                   
-                    </form>
-                    <!-- /CONTACT FORM --> 
-
-
-                </section>
-                <!-- /CONTACT -->
-                
-                
-                <!-- FOOTER -->
-                <section id="footer">
-                
-                   
-                    <!-- SOCIAL ICONS -->
-                    <ul class="social-icons scroll-animated-from-right">
-                       
-                       
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        
-                        
-                    </ul>
-                    <!-- /SOCIAL ICONS -->
-                    
-
-                    <p class="scroll-animated-from-right">© 2017 Your Brand | Design by <a href="https://templatefoundation.com">Template Foundation</a></p>
-
-
-                </section>
-                <!-- /FOOTER -->
-
-
+        <div class="content">
+            <h3> من <span> حسین امانی </span> هستم </h3>
+            <p class="info">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </p>
+            <div class="box-container">
+                <div class="box">
+                    <p> <span> سن: </span> 21 </p>
+                    <p> <span> جنسیت: </span> مرد </p>
+                    <p> <span> تجربه  : </span> 4 سال </p>
+                    <p> <span> فریلنسر : </span> آزاد </p>
+                </div>
+                <div class="box">
+                    <p> <span> زبان : </span> ایرانی / انگلیسی </p>
+                    <p> <span> تلفن : </span> +123-456-7890 </p>
+                    <p> <span> ایمیل : </span> mramani9957@gmail.com </p>
+                    <p> <span> آدرس : </span> ایران,خراسان رضوی </p>
+                </div>
             </div>
-            <!-- /CONTENT AREA INNER -->
-
-
+            <a href="#" class="btn">دانلود رزومه</a>
         </div>
-        <!-- /CONTENT AREA -->
-        
-        
-        <!-- JAVASCRIPTS -->
-        <script type="text/javascript" src="assets/js/plugins.js"></script>
-        <script type="text/javascript" src="assets/js/main.js"></script>
-   
-   
-    </body> 
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> <span> خدمات </span> من </h1>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <i class="fas fa-code"></i>
+            <h3>طراح وب</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fas fa-paint-brush"></i>
+            <h3>طراحی گرافیک</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fas fa-bullhorn"></i>
+            <h3> سئو</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fas fa-envelope"></i>
+            <h3>بازاریابی ایمیلی</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fas fa-mobile"></i>
+            <h3>طراحی واکنش گرا</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+        </div>
+
+        <div class="box tilt">
+            <i class="fab fa-wordpress"></i>
+            <h3>وردپرس</h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span> نمونه  </span> کارها </h1>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <img src="images/img-1.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">بیشتر بدانید</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/img-2.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">بیشتر بدانید</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/img-3.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">بیشتر بدانید</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/img-4.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">بیشتر بدانید</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/img-5.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">بیشتر بدانید</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/img-6.jpg" alt="">
+            <div class="content">
+                <a href="#" class="btn">بیشتر بدانید</a>
+            </div>
+        </div>
+
+    </div>
     
-    
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span> وبلاگ </span> من </h1>
+
+    <div class="box-container">
+        
+        <div class="box tilt">
+            <img src="images/blog-img-1.jpg" alt="">
+            <h3> عنوان وبلاگ اینجا قرار میگیرد </h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+            <a href="#" class="btn">بیشتر بدانید</a>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/blog-img-2.jpg" alt="">
+            <h3> عنوان وبلاگ اینجا قرار میگیرد </h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+            <a href="#" class="btn">بیشتر بدانید</a>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/blog-img-3.jpg" alt="">
+            <h3> عنوان وبلاگ اینجا قرار میگیرد </h3>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+            <a href="#" class="btn">بیشتر بدانید</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> تماس با <span> من </span> </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="اسم">
+                <input type="email" placeholder="ایمیل">
+            </div>
+
+            <input type="text" placeholder="عنوان" class="box">
+
+            <textarea placeholder="متن پیام" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" class="btn" value="ارسال پیام">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<div class="footer"> طراحی توسط <span><a href="https://netcopy.ir" target="_blank"> نت کپی </a></span> | کلیه حقوق محفوظ است </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- javascript part  -->
+
+<!-- typed.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<!-- particles.js links  -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+<!-- vanilla-tilt.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script>
+
+let menu = document.querySelector('#menu-bars');
+let header = document.querySelector('header');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+};
+
+var typed = new Typed('.typing-text', {
+    strings : ['front end developer', 'web designer', 'graphic designer', 'web developer'],
+    loop : true,
+    typeSpeed : 150
+});
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+    max:25
+});
+
+</script>
+
+</body>
 </html>
